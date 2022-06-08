@@ -11,3 +11,8 @@ a- Para actualizar usamos los comandos:
 
 b- Si, con el comando:
 	git pull al repo de gamma
+
+c- Si, con el comando:
+	git pull al repo de alfa.
+
+d- No, no se pueden perder ya que lanzara un error adviertiendo que los cambios realizados al repo  podrian ser sobrescritos.
