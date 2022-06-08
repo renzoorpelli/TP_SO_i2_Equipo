@@ -10,4 +10,4 @@ a- Para actualizar usamos los comandos:
 	git merge upstream/main
 
 b- Si, con el comando:
-	git pull al repo de alfa
+	git pull al repo de gamma
