@@ -1,3 +1,13 @@
 Renzo Orpelli
 Leonel Ledesma
 Roberto Pardo
+
+Respuestas
+
+a- Para actualizar usamos los comandos:
+	git remote add upstream https://github.com/renzoorpelli/TP_SO_i2_Equipo.git
+	git fetch upstream
+	git merge upstream/main
+
+b- Si, con el comando:
+	git pull al repo de alfa
