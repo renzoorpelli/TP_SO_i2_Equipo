@@ -16,3 +16,49 @@ c- Si, con el comando:
 	git pull al repo de alfa.
 
 d- No, no se pueden perder ya que lanzara un error adviertiendo que los cambios realizados al repo  podrian ser sobrescritos.
+
+e- 1. Beta crea el repositorio
+2. Gamma forkea
+3. Gamma: git clone https://github.com/renzoorpelli/TP_SO_i2_Equipo.git
+4. Gamma edita el archivo y lo sube:
+5. Gamma: git add .
+6. Gamma git commit -m
+7. gamma git push
+8. Gamma hace una pull request al repositorio de Beta
+9. Beta acepta la pull request y los cambios quedaran afectados en el repositorio original.
+10. Alfa forkea
+11. Alfa: git clone https://github.com/renzoorpelli/TP_SO_i2_Equipo.git
+12. Alfa edita el archivo y lo sube:
+13. Alfa git add .
+14. Alfa git commit -m
+15. Alfa git push
+16. Alfa hace una pull request al repositorio de Beta
+17. Beta acepta la pull request y los cambios quedaran afectados en el repositorio original.
+18. Beta: git pull
+19. Beta crea el archivo.
+20. Beta git add .
+21. Beta git commit -m
+22. Beta git push
+23. Alfa y gamma: git remote add upstream https://github.com/renzoorpelli/TP_SO_i2_Equipo.git
+24. Alfa y gamma: git fetch upstream
+25. Alfa y gamma: git merge upstream/main
+26. Beta crea el archivo.
+27. Beta git add .
+28. Beta git commit -m
+29. Beta git push
+24. gamma: git fetch upstream
+25. gamma: git merge upstream/main
+26. gamma git add .
+28. gamma git commit -m
+29. gamma git push
+30. Gamma abre pull request y los cambios quedaran afectados en el repositorio original.
+31. beta git pull
+32. Beta git add .
+33. Beta git commit -m
+34. Beta git push
+35. alfa: git fetch upstream
+36. alfa: git merge upstream/main
+37. alfa: git add .
+33. alfa: git commit -m
+34. alfa: git push
+35. alfa abre pull request y los cambios quedaran afectados en el repositorio original.
